@@ -1,0 +1,39 @@
+[project]
+name = "langchain-doc-helper"
+version = "0.1.0"
+description = "LangChain Documentation Helper"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4",
+    "tiktoken",
+    "openai",
+    "unstructured",
+    "nltk",
+    "fastapi",
+    "jinja2",
+    "uvicorn",
+    "streamlit",
+    "streamlit-chat",
+    "tqdm",
+    "langchainhub",
+    "firecrawl-py",
+    "langchain-community",
+    "langsmith",
+    "pillow",
+    "certifi",
+    "python-dotenv",
+    "langchain-chroma",
+    "langchain-text-splitters",
+    "langchain-tavily",
+    "langchain-openai",
+    "langchain-pinecone",
+    "langfuse>=4.3.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+    "black",
+    "isort",
+]
